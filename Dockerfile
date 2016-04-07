@@ -15,4 +15,4 @@ RUN pip install flower
 EXPOSE 5555
 
 # Running flower
-ENTRYPOINT ["flower", "--port=5555"]
+ENTRYPOINT ["flower", "--port=5555", "--address=0.0.0.0"]
